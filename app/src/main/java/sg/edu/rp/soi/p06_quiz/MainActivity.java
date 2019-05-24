@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 etNum1.setText("");
                 etNum2.setText("");
-                tvResult.setText("");
+                tvResult.setText("Here shows the result");
             }
         });
     }
@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
             int sub = num1-num2;
             tvResult.setText(sub+"");
             return true;
+        }
+        else{
+            tvResult.setText("Error");
         }
         return super.onContextItemSelected(item);
     }
