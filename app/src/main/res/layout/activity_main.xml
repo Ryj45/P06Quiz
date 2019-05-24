@@ -10,12 +10,14 @@
     <EditText
         android:id="@+id/etNum1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/etNum2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/tvOperation"
